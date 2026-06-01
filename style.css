@@ -25,13 +25,6 @@ img {
     display: block;
 }
 
-.site-header {
-    background-image: url(img/kep2.jpg);
-    backdrop-filter: blur(10px);
-    background-size: cover;
-    background-position: center;
-
-}
 
 .navbar {
     padding: 1rem 0;
@@ -69,7 +62,7 @@ img {
     display: flex;
     align-items: center;
     padding: 5rem 0;
-    background: linear-gradient(180deg, rgba(127,23,52,0.88), rgba(31,13,38,0.9)), url('img/Aston_Villa.png') center/contain no-repeat;
+    background: linear-gradient(180deg, rgba(127,23,52,0.88), rgba(31,13,38,0.9)), url('img/b0acf4ff-2e4c-4a22-a276-4b193a4f4bd1.png') center/contain no-repeat;
     background-color: #1b0b1a;
 }
 
@@ -222,4 +215,11 @@ footer p {
     .section-title {
         font-size: 2rem;
     }
+}
+
+#korlogo {
+    border: black 1px solid;
+    padding: 20px;
+    background-color: black;
+    border-radius: 30px;
 }
