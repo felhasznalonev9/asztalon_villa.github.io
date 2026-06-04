@@ -1,5 +1,5 @@
 :root {
-    --club-claret: #7f1734;
+    --club-claret: #670E36;
     --club-gold: #f3b93c;
     --club-dark: #1d1d1d;
     --surface: #ffffff;
@@ -25,12 +25,14 @@ img {
     display: block;
 }
 
-.site-header {
-    background-image: url(img/kep2.jpg);
-    backdrop-filter: blur(10px);
-    background-size: cover;
-    background-position: center;
+header {
+    background-color: #670E36;
+    opacity: 0.95;
+}
 
+#mainpage {
+    font-weight: 700;
+    color: var(--club-gold);
 }
 
 .navbar {
@@ -40,6 +42,7 @@ img {
 .navbar-logo {
     width: 38px;
     height: auto;
+    
 }
 
 .brand-title {
@@ -50,18 +53,21 @@ img {
 
 .brand-subtitle {
     font-size: 0.8rem;
-    color: var(--text-muted);
+    color: #670E36;
+    
 }
 
 .navbar-nav .nav-link {
-    color: #3b3b3b;
+    color: #95BFE5;
     font-weight: 500;
     padding: 0.7rem 1rem;
+
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-    color: var(--club-claret);
+       color: var(--club-gold);
+;
 }
 
 .hero {
@@ -69,7 +75,7 @@ img {
     display: flex;
     align-items: center;
     padding: 5rem 0;
-    background: linear-gradient(180deg, rgba(127,23,52,0.88), rgba(31,13,38,0.9)), url('img/Aston_Villa.png') center/contain no-repeat;
+    background: linear-gradient(180deg, rgba(99, 19, 42, 0.88), rgba(31,13,38,0.9)), url('img/b0acf4ff-2e4c-4a22-a276-4b193a4f4bd1.png') center/contain no-repeat;
     background-color: #1b0b1a;
 }
 
@@ -189,15 +195,15 @@ img {
 }
 
 .bg-claret {
-    background-color: var(--club-claret) !important;
+    background-color: #670E36;
 }
 
 .text-gold {
-    color: var(--club-gold) !important;
+    color: var(--club-gold);
 }
 
 .text-white-75 {
-    color: rgba(255, 255, 255, 0.78) !important;
+    color: rgba(255, 255, 255, 0.78);
 }
 
 footer {
@@ -222,4 +228,11 @@ footer p {
     .section-title {
         font-size: 2rem;
     }
+}
+
+#korlogo {
+    border: black 1px solid;
+    padding: 20px;
+    background-color: black;
+    border-radius: 30px;
 }

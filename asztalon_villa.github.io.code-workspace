@@ -7,5 +7,7 @@
 			"path": "../bootstrap"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "asztalon_villa.github.io"
+	}
 }
